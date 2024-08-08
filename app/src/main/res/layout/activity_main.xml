@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_bg"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout1"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+        android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/player_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/white_box_black_border"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Player One\nX"
+                    android:textColor="@color/red_cross"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/player_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/white_box_black_border"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Player Two\nO"
+                    android:textColor="@color/grey_circle"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="447dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/box1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="check"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                android:textSize="55sp" />
+            <Button
+                android:id="@+id/box2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                app:backgroundTint="@color/white"
+                android:onClick="check"
+                android:textStyle="bold"
+                android:textSize="55sp" />
+            <Button
+                android:id="@+id/box3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                app:backgroundTint="@color/white"
+                android:textStyle="bold"
+                android:onClick="check"
+                android:textSize="55sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/box4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                android:textStyle="bold"
+                android:onClick="check"
+                app:backgroundTint="@color/white"
+                android:textSize="55sp" />
+            <Button
+                android:id="@+id/box5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                app:backgroundTint="@color/white"
+                android:textStyle="bold"
+                android:onClick="check"
+                android:textSize="55sp" />
+            <Button
+                android:id="@+id/box6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                app:backgroundTint="@color/white"
+                android:textStyle="bold"
+                android:onClick="check"
+                android:textSize="55sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/box7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                android:onClick="check"
+                android:textSize="55sp" />
+            <Button
+                android:id="@+id/box8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                app:backgroundTint="@color/white"
+                android:textStyle="bold"
+                android:onClick="check"
+                android:textSize="55sp" />
+            <Button
+                android:id="@+id/box9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/white_box_black_border"
+                app:backgroundTint="@color/white"
+                android:textStyle="bold"
+                android:onClick="check"
+                android:textSize="55sp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
